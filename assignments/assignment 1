@@ -1,0 +1,17 @@
+#question 1.
+name = input("enter name:")
+cls = input("enter class:")
+
+m1=int(input("enter marks1:"))
+m2=int(input("enter marks2:"))
+m3=int(input("enter marks3:"))
+m4=int(input("enter marks4:"))
+m5=int(input("enter marks5:"))
+
+total=m1+m2+m3+m4+m5
+percentage=total/5
+
+print("Name:",name)
+print("class:",cls)
+print("Total:",total)
+print("Percentage:",percentage)
